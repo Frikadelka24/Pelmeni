@@ -1,0 +1,44 @@
+def cook_pelmeni():
+    # Ingredients
+    ingredients = {
+        "ground pork": "250g",
+        "ground beef": "250g",
+        "onion": "1, finely chopped",
+        "garlic": "2 cloves, minced",
+        "salt": "to taste",
+        "pepper": "to taste",
+        "flour": "3 cups",
+        "egg": "1",
+        "water": "1 cup",
+        "butter": "for serving",
+        "sour cream": "for serving",
+    }
+
+    # Steps to cook
+    steps = [
+        "1. In a large bowl, combine the ground pork, ground beef, finely chopped onion, minced garlic, salt, and pepper. Mix well to combine the filling.",
+        "2. In another bowl, combine the flour, egg, and water. Mix until a dough forms.",
+        "3. Knead the dough on a floured surface until it becomes smooth and elastic.",
+        "4. Roll out the dough to about 1/8 inch thickness.",
+        "5. Use a round cutter or glass to cut out circles from the dough.",
+        "6. Place a small amount of the meat filling in the center of each dough circle.",
+        "7. Fold the dough over the filling to create a half-moon shape and pinch the edges to seal. Bring the two corners together and pinch to form the traditional pelmeni shape.",
+        "8. Bring a large pot of salted water to a boil.",
+        "9. Add the pelmeni to the boiling water and cook until they float to the surface and are fully cooked, about 5-7 minutes.",
+        "10. Remove the pelmeni with a slotted spoon and transfer to a serving dish.",
+        "11. Serve the pelmeni hot with butter and sour cream.",
+        "12. Enjoy your meal!"
+    ]
+
+    # Displaying ingredients
+    print("Ingredients:")
+    for ingredient, amount in ingredients.items():
+        print(f"{amount} {ingredient}")
+
+    # Displaying steps
+    print("\nSteps to cook Pelmeni:")
+    for step in steps:
+        print(step)
+
+if __name__ == "__main__":
+    cook_pelmeni()
